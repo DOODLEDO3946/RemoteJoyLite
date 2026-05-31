@@ -33,7 +33,7 @@ function fullscreen()
 
 function connectPsp() {
 
-    const filters = [{ vendorId: 0x054c, productId: 0x01c9 }];
+    const filters = [{ vendorId: 0x6472, productId: 0x01c9 }];
 
     navigator.usb
       .requestDevice({ filters })
