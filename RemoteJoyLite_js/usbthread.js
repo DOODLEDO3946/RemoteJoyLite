@@ -350,7 +350,7 @@ async function usbThread() {
 
 async function connectPsp() {
 
-    const filter = { vendorId: 0x054c, productId: 0x01c9 };
+    const filter = { vendorId: 0x6472, productId: 0x01c9 };
 
     let devices = await navigator.usb.getDevices();
     for (const device of devices) {
